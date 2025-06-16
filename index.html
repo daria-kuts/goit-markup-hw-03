@@ -26,9 +26,9 @@
     />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav class="header">
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
           <a class="logo" href="./index.html"
             >WEB<span class="logo-studio">Studio</span></a
           >
@@ -56,8 +56,8 @@
     </header>
 
     <main>
-      <section class="section">
-        <div class="container">
+      <section class="section hero-banner">
+        <div class="container hero-section">
           <h1 class="hero-banner-title">
             Effective Solutions for Your Business
           </h1>
@@ -67,10 +67,10 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section benefits">
         <div class="container">
-          <h2 hidden>Hidden title</h2>
-          <ul>
+          <h2 class="section-title visually-hidden">Our benefits</h2>
+          <ul class="benefits-list">
             <li>
               <h3 class="benefits-title">Strategy</h3>
               <p class="benefits-text">
@@ -103,10 +103,10 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section section-team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
-          <ul>
+          <ul class="team-list">
             <li class="team-member-photo">
               <img
                 src="./images/mark.jpg"
@@ -114,8 +114,10 @@
                 height="260"
                 alt="Mark Guerrero"
               />
-              <h3 class="team-member">Mark Guerrero</h3>
-              <p class="position">Product Designer</p>
+              <div class="team-member-container">
+                <h3 class="team-member">Mark Guerrero</h3>
+                <p class="position">Product Designer</p>
+              </div>
             </li>
             <li class="team-member-photo">
               <img
@@ -124,8 +126,10 @@
                 height="260"
                 alt="Tom Ford"
               />
-              <h3 class="team-member">Tom Ford</h3>
-              <p class="position">Frontend Developer</p>
+              <div class="team-member-container">
+                <h3 class="team-member">Tom Ford</h3>
+                <p class="position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-member-photo">
               <img
@@ -134,8 +138,10 @@
                 height="260"
                 alt="Camila Garcia"
               />
-              <h3 class="team-member">Camila Garcia</h3>
-              <p class="position">Marketing</p>
+              <div class="team-member-container">
+                <h3 class="team-member">Camila Garcia</h3>
+                <p class="position">Marketing</p>
+              </div>
             </li>
             <li class="team-member-photo">
               <img
@@ -144,75 +150,59 @@
                 height="260"
                 alt="Daniel Wilson"
               />
-              <h3 class="team-member">Daniel Wilson</h3>
-              <p class="position">UI Designer</p>
+              <div class="team-member-container">
+                <h3 class="team-member">Daniel Wilson</h3>
+                <p class="position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section section-portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
-          <ul>
-            <li>
-              <img
-                src="./images/bankingapp.jpg"
-                alt="Banking App"
-                width="360"
-                height="300"
-              />
-              <h3 class="product">Banking App</h3>
-              <p class="product-type">App</p>
+          <ul class="products-list">
+            <li class="products-list-item">
+              <img src="./images/bankingapp.jpg" alt="Banking App" />
+              <div class="product-container">
+                <h3 class="product">Banking App</h3>
+                <p class="product-type">App</p>
+              </div>
             </li>
-            <li>
-              <img
-                src="./images/pay.jpg"
-                alt="Cashless Payment"
-                width="360"
-                height="300"
-              />
-              <h3 class="product">Cashless Payment</h3>
-              <p class="product-type">Marketing</p>
+            <li class="products-list-item">
+              <img src="./images/pay.jpg" alt="Cashless Payment" />
+              <div class="product-container">
+                <h3 class="product">Cashless Payment</h3>
+                <p class="product-type">Marketing</p>
+              </div>
             </li>
-            <li>
-              <img
-                src="./images/meditationapp.jpg"
-                alt="Meditation App"
-                width="360"
-                height="300"
-              />
-              <h3 class="product">Meditation App</h3>
-              <p class="product-type">App</p>
+            <li class="products-list-item">
+              <img src="./images/meditationapp.jpg" alt="Meditation App" />
+              <div class="product-container">
+                <h3 class="product">Meditation App</h3>
+                <p class="product-type">App</p>
+              </div>
             </li>
-            <li>
-              <img
-                src="./images/taxi.jpg"
-                alt="Taxi Service"
-                width="360"
-                height="300"
-              />
-              <h3 class="product">Taxi Service</h3>
-              <p class="product-type">Marketing</p>
+            <li class="products-list-item">
+              <img src="./images/taxi.jpg" alt="Taxi Service" />
+              <div class="product-container">
+                <h3 class="product">Taxi Service</h3>
+                <p class="product-type">Marketing</p>
+              </div>
             </li>
-            <li>
-              <img
-                src="./images/screen.jpg"
-                alt="Screen Illustrations"
-                width="360"
-                height="300"
-              />
-              <h3 class="product">Screen Illustrations</h3>
-              <p class="product-type">Design</p>
+            <li class="products-list-item">
+              <img src="./images/screen.jpg" alt="Screen Illustrations" />
+              <div class="product-container">
+                <h3 class="product">Screen Illustrations</h3>
+                <p class="product-type">Design</p>
+              </div>
             </li>
-            <li>
-              <img
-                src="./images/courses.jpg"
-                alt="Online Courses"
-                width="360"
-                height="300"
-              />
-              <h3 class="product">Online Courses</h3>
-              <p class="product-type">Marketing</p>
+            <li class="products-list-item">
+              <img src="./images/courses.jpg" alt="Online Courses" />
+              <div class="product-container">
+                <h3 class="product">Online Courses</h3>
+                <p class="product-type">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
