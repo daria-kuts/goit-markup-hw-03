@@ -226,6 +226,7 @@ text-align: center;
 color: #2e2f42;
 margin-bottom: 8px;
 }
+
 .position{
     font-size: 16px;
     line-height: 150%;
@@ -264,6 +265,7 @@ margin-bottom: 8px;
 .product-container{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .product{
     font-weight: 500;
@@ -271,6 +273,7 @@ margin-bottom: 8px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 
 }
 .product-type{
